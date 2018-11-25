@@ -1,0 +1,93 @@
+/*User stick note*/
+h3.sticky_title {  
+  margin-top: 12px;
+  margin-bottom: 11px;
+}
+
+span.sticky_info_row {
+  display: block;
+  line-height: 23px;
+}
+
+label.row-element {
+  font-weight: bold;
+}
+
+label.row-element.more-detail{
+  color: #ff0000;
+}
+
+.customize-text_editor{
+    font-size: 16px;
+    font-weight: bold;    
+    padding: 20px;
+}
+.customize-text_editor_desc label {
+display:none;
+}
+.customize-text_editor_desc a {
+	background-color: red;
+	padding: 4px;
+	color: #fff;
+	border-radius: 2px;
+	margin: 2px 0;
+	display: block !important;
+	max-width:100%;
+	text-align:center;
+	text-transform:capitalize;
+	transition:all ease 0.3s;
+	-webkit-transition:all ease 0.3s;
+	-moz-transition:all ease 0.3s;
+	font-weight: 700;
+	font-size:14px;
+	margin-left: 8px;
+	margin-bottom:10px;
+	background: #fff;
+	color: #0089BD;
+	border-color: #F7BD21;
+	text-decoration:none !important;
+	padding: 10px 20px;  
+}
+.customize-text_editor_desc a:hover {
+  background-color: #fff;
+  color: #0089BD;
+}
+.customize-text_editor_desc span {  
+  padding: 10px;
+  margin: 0;
+  display: block;
+}
+
+.customize-text_editor_desc .upgrade-pro{
+  color: #FFF !important;
+  font-size: 12px;
+  line-height: 1;  
+  text-align: center;
+  width: 90%;
+  margin-top: 10px;  
+}
+
+#accordion-section-theme_info{
+    color: #0089BD;
+}
+
+.control-section-pro-section .accordion-section-title .button {
+	margin-top:  -4px;
+	font-weight: 700;
+	margin-left: 8px;
+  background: #0F83FF;
+  color: #fff;
+  border-color: #0F83FF;
+  padding: 0 20px 1px;
+}
+
+.control-section-pro-section .accordion-section-title .button:hover,
+.control-section-pro-section .accordion-section-title .button:focus{
+  background: #0078f9;
+  border-color: #0078f9;
+}
+
+.rtl .control-section-pro-section .accordion-section-title .button {
+	margin-left:  0;
+	margin-right: 8px;
+}
